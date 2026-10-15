@@ -25,19 +25,19 @@ Tables `Materiale`, `Movimenti`, `TipoMovimento`, `codice`.
 
 ## Technology
 
-Microsoft Access 97 format (.mdb), forms and VBA module.
+db, 97 format (.mdb), forms and VBA module.
 
 ## Repository contents
 
 | Path | Content |
 |---|---|
-| `database/` | The Access 97 application, emptied of all data. |
+| `database/` | The database application, emptied of all data. |
 | `docs/schema.md` | Tables and fields. |
 | `source/queries/` | SQL of the saved queries. |
 
 ## What is not included
 
-The database is published **empty**: every table has been emptied and the file compacted, so no record of the original data survives. The file is in Microsoft Access 97 format: it opens in Access 97–2010; later versions of Access must first convert it with an intermediate version. The table schema is documented in `docs/schema.md`.
+The database is published **empty**: every table has been emptied and the file compacted, so no record of the original data survives. The file is in the 1997 db format: it opens with the 1997–2010 versions of the database software; later versions must first convert it with an intermediate version. The table schema is documented in `docs/schema.md`.
 
 ## How to cite
 
